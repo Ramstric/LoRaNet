@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c884bf5a-518a-4cf8-a54a-b430f224d7ac" name="RPI_Zero" url="http://raspberrypi.local">
+        <fileTransfer accessType="SFTP" host="raspberrypi.local" port="22" sshConfigId="009916a1-1356-48fd-b5a0-3d30719a47ef" sshConfig="RamonHdez@raspberrypi.local:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

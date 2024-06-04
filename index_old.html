@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servidor LoRa</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="title-div">Servidor LoRa</div>
+  <div class="main-body">
+    <div class="content-div">
+
+      <div class="AP-div">Puntos de acceso
+        <div class="Active-AP">Conexiones activas:
+          <div class="Red">
+            <span class="dot active"></span>
+            <h4>Red #1</h4>
+            <p>Latencia de paquetes: 25ms</p>
+          </div>
+        </div>
+
+        <div class="Inactive-AP">Conexiones inactivas:
+          <div class="Red">
+            <span class="dot inactive"></span>
+            <h4>Red #2</h4>
+            <p>Latencia de paquetes: -</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Dashboard-div">Dashboard
+        <div class="cards-row">
+          <div class="card">Sensor de <h3>temperatura</h3>
+            <p class="medicion"><span id="temperatura">20</span> °C</p></div>
+          <div class="card">Sensor de <h3>presion</h3>
+            <p class="medicion"><span id="presion">5</span> Pa</p></div>
+          <div class="card">Sensor de <h3>humedad</h3>
+            <p class="medicion"><span id="humedad">10.1</span> ml</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
