@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="remoteDeploymentFS://&lt;c884bf5a-518a-4cf8-a54a-b430f224d7ac&gt;/var/www/html/mariaDB_Query.php" dialect="GenericSQL" />
+  </component>
+</project>
