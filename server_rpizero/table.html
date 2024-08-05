@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/table.css">
+    <script src="js/jquery-3.7.1.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+<a id="downloadAnchorElem" style="display:none"></a>
+
+<!-- Div containing buttons on the left and table on the right -->
+
+<div style="display: flex; flex-direction: row;">
+    <div style="display: flex; flex-direction: column; min-width: 25%; justify-self: center;" id="buttons-div">
+        <button style="margin: 20px 30px 10px 30px; padding: 8px 1em; border: none;" id="boton-dia">Ordenar por dia</button>
+        <button style="margin: 20px 30px 10px 30px; padding: 8px 1em; border: none;" id="boton-mat">Horario matutino</button>
+        <button style="margin: 20px 30px 10px 30px; padding: 8px 1em; border: none;" id="boton-vesp">Horario vespertino</button>
+        <button style="margin: 20px 30px 10px 30px; padding: 8px 1em; border: none;" id="boton-noct">Horario nocturno</button>
+        <button style="margin: 20px 30px 10px 30px; padding: 8px 1em; border: none;" id="boton-id">Ordenar por ID</button>
+    </div>
+    <div style="width: 50%;" id="table-div">
+    </div>
+</div>
+
+<script src="js/table.js"></script>
+</body>
+
+</html>

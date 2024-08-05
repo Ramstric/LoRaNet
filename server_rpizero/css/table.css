@@ -74,3 +74,31 @@ html {
     .cards-row { grid-template-columns: repeat(1, 1fr); gap: 2rem;}
     .card {min-width: 70vw;}
 }
+
+button{
+    background-color: var(--main-bg-color);
+}
+button:nth-child(1):hover{
+    background-color: #333333;
+    color: var(--main-bg-color);
+}
+
+button:nth-child(2):hover{
+    background-color: #2c95d3;
+    color: var(--main-bg-color);
+}
+
+button:nth-child(3):hover{
+    background-color: #f39a41;
+    color: var(--main-bg-color);
+}
+
+button:nth-child(4):hover{
+    background-color: #272969;
+    color: var(--main-bg-color);
+}
+
+button:nth-child(5):hover{
+    background-color: #333333;
+    color: var(--main-bg-color);
+}

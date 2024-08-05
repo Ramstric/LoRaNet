@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/plotly-2.32.0.min.js" charset="utf-8"></script>
+    <script src="js/jquery-3.7.1.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+<div class="Dashboard-div">
+    <span class="subtitle-div">Dashboard</span>
+
+    <div class="cards-row">
+        <div class="card" style="background: linear-gradient(0deg, rgba(56,136,255,1) 75%, rgba(34,81,153,1) 100%)">
+            <div class="header-card">
+                <div class="medicion"> <div class="medicion-top"> <img src="img/thermometer.png" alt="icono de temperatura" width="40" height="40"> <span id="temp-id-1">-</span> <p>°C</p> </div> <div class="medicion-alt">Temperatura ambiental</div> </div>
+                <div class="dispositivo"> <img src="img/motherboard.png" alt="icono de microcontrolador" width="40" height="40"> <p>Dispositivo</p> <span id="disp-id-1">1</span ></div>
+            </div>
+            <div class="content-card" id='plot-id-1'><!--Plotly in here--></div>
+        </div>
+
+        <div class="card" style="background: linear-gradient(0deg, rgb(245,70,85) 75%, rgb(159,51,61) 100%)">
+            <div class="header-card">
+                <div class="medicion"> <div class="medicion-top"> <img src="img/thermometer.png" alt="icono de temperatura" width="40" height="40"> <span id="temp-id-2">-</span> <p>°C</p> </div> <div class="medicion-alt">Temperatura ambiental</div> </div>
+                <div class="dispositivo"> <img src="img/motherboard.png" alt="icono de microcontrolador" width="40" height="40"> <p>Dispositivo</p> <span id="disp-id-2">2</span ></div>
+            </div>
+            <div class="content-card"  id='plot-id-2'><!--Plotly in here--></div>
+        </div>
+    </div>
+
+
+    <div class="cards-row">
+        <div class="card" style="background: linear-gradient(0deg, rgb(243,143,57) 75%, rgb(164,97,42) 100%)">
+            <div class="header-card">
+                <div class="medicion"> <div class="medicion-top"> <img src="img/color-palette.png" alt="icono de color" width="40" height="40"> <span id="col-id-1">-</span> </div> <div class="medicion-alt">Color del agua</div> </div>
+                <div class="dispositivo"> <img src="img/motherboard.png" alt="icono de microcontrolador" width="40" height="40"> <p>Dispositivo</p> <span id="disp-col-id-1">1</span ></div>
+            </div>
+            <div class="content-card" id='plot-id-3'><!--Plotly in here--></div>
+        </div>
+
+        <div class="card" style="background: linear-gradient(0deg, rgb(94,168,79) 75%, rgb(59,105,50) 100%)">
+            <div class="header-card">
+                <div class="medicion"> <div class="medicion-top"> <img src="img/color-palette.png" alt="icono de color" width="40" height="40"> <span id="col-id-2">-</span> </div> <div class="medicion-alt">Color del agua</div> </div>
+                <div class="dispositivo"> <img src="img/motherboard.png" alt="icono de microcontrolador" width="40" height="40"> <p>Dispositivo</p> <span id="disp-col-id-2">2</span ></div>
+            </div>
+            <div class="content-card"  id='plot-id-4'><!--Plotly in here--></div>
+        </div>
+    </div>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
